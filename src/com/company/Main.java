@@ -20,10 +20,10 @@ public class Main
             {
                 sauvgarde = lance.lancedé();
                 System.out.println("le joueur"+(j+1)+" a "+sauvgarde);
-                tab[j] = resulta.score(tab[j],sauvgarde);
+                tab[j] = resulta.score(tab[j],sauvgarde);/*il faut ajouter des get/setScore()*/
             }
         }
-
+/*****Correct *****/
         int max = tab[0];
         int indice = 1;
 
